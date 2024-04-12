@@ -1,4 +1,4 @@
-import './layout.scss';
+import './layout.css';
 
 function App() {
   return (
