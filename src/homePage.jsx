@@ -14,7 +14,7 @@ function HomePage(){
                         molestias odio sunt corrupti accusamus saepe nam eos excepturi 
                         deserunt quaerat, magnam doloribus provident!
                     </p>
-                    <SearchBar/>
+                    {/* <SearchBar/> */}
                     <div className="boxes">
                         <div className="box">
                             <h1>16+</h1>
