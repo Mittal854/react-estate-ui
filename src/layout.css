@@ -1,33 +1,33 @@
-@import "./responsive.css"; 
+@import "./responsive.css";
 
-.layout{
-    background-color:rebeccapurple;
-    height: 100vh;
-    max-width:1366px;
-    margin-left:auto;
-    margin-right:auto;
-    padding-left: 20px;
-    padding-right: 20px;
+.layout {
+  /* background-color:rebeccapurple; */
+  height: 100vh;
+  max-width: 1366px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
 }
-   @media (max-width: 1366px) {
-    .layout {
-        background-color: coral;
-        max-width: 1280px;
-    }
+@media (max-width: 1366px) {
+  .layout {
+    /* background-color: coral; */
+    max-width: 1280px;
+  }
 }
 
 /* Medium screens */
 @media (max-width: 1024px) {
-    .layout {
-        background-color: cornflowerblue;
-        max-width: 768px;
-    }
+  .layout {
+    /* background-color: cornflowerblue; */
+    max-width: 768px;
+  }
 }
 
 /* Small screens */
 @media (max-width: 738px) {
-    .layout {
-        background-color: red;
-        max-width: 640px;
-    }
+  .layout {
+    /* background-color: red; */
+    max-width: 640px;
+  }
 }
