@@ -12,7 +12,7 @@ function SearchBar(){
     })
 
     const switchType=(value)=>{
-        setQuery((prev)=>({...pre,type:val}));
+        setQuery((prev)=>({...prev,type:value}));
     };
 
     return(
