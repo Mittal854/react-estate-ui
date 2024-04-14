@@ -1,4 +1,4 @@
-import Navbar from "./navbar";
+import Navbar from "./Navbar";
 import HomePage from "./homePage";
 import './layout.css';
 
