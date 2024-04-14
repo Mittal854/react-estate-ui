@@ -92,7 +92,7 @@
 @media (max-width: 1024px) {
     /* @mixin md */
     .homePage .imgcontainer {
-        display: none;
+        display: none !important;
     }
 }
 
@@ -105,7 +105,7 @@
         font-size: 48px;
     }
     .homePage .imgcontainer img {
-        width: 105%;
+        width: 115%;
     }
 }
 
