@@ -1,5 +1,5 @@
 import './homePage.css'
-import SearchBar from './SearchBar'
+import SearchBar from '../../components/searchbar/SearchBar'
 
 function HomePage(){
     return(
