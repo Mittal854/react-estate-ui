@@ -6,7 +6,7 @@ import ListPage from "./routes/listpage/listPage";
 import Layout from "./routes/layout/layout";
 
 function App() {
-  const router1 = createBrowserRouter([
+  const router = createBrowserRouter([
     {
       path: "/",
       element: <Layout />,
@@ -23,7 +23,7 @@ function App() {
     },
   ]);
 
-  return <RouterProvider router={router1} />;
+  return <RouterProvider router={router} />;
 }
 
 export default App;
