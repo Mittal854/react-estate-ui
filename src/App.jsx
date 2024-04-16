@@ -1,4 +1,4 @@
-// import Navbar from "./components/navbar/navbar";
+
 import HomePage from "./routes/homepage/homePage";
 // import './layout.css';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
