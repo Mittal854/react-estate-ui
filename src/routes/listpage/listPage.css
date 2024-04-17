@@ -3,19 +3,24 @@
     height: 100%;
 }
 
-.listContainer{
+.listPage .listContainer{
     flex:3;
     height: 100%;
+    
 }
 
-.wrapper {
+.listPage .listContainer .wrapper {
     height: 100%;
     padding-right: 50px;
     display: flex;
     flex-direction: column;
     gap: 50px;
-    overflow-y: scroll;
+    overflow-y:scroll;
     padding-bottom: 50px;
+    /* position: absolute;Positioning inside the container */
+    /* width: calc(52% - 20px); */
+    width:52%;
+    position: absolute;
 }
 
 .mapContainer {
