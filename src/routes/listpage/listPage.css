@@ -1,30 +1,32 @@
-.listPage{
-    display: flex;
-    height: 100%;
+.listPage {
+  display: flex;
+  height: 100vh;
 }
 
-.listPage .listContainer{
-    flex:3;
-    height: 100%;
-    
+.listPage .listContainer {
+  flex: 3;
+  height: 100%;
+  /* overflow:hidden; */
 }
 
 .listPage .listContainer .wrapper {
-    height: 100%;
-    padding-right: 50px;
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-    overflow-y:scroll;
-    padding-bottom: 50px;
-    /* position: absolute;Positioning inside the container */
-    /* width: calc(52% - 20px); */
-    width:52%;
-    position: absolute;
+  height: 100%;
+  padding-right: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  overflow-y: scroll;
+  padding-bottom: 50px;
 }
 
-.mapContainer {
-    flex:2;
-    height: 100%;
-    background-color: #fcf5f3;
+.listPage .mapContainer {
+  flex: 2;
+  height: 100%;
+  background-color: #fcf5f3;
+}
+
+@media (max-width: 1024px) {
+  .listPage .mapContainer {
+    display: none;
+  }
 }
