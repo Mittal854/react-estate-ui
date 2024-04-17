@@ -34,8 +34,9 @@
   }
 
   .content{
-    /* background-color: rebeccapurple; */
+    background-color: rebeccapurple;
     /* height: calc(100vh-100px); */
-    flex: 1;
-  }
+    /* flex: 1; */
+    height: calc(100vh - 100px);
+  } 
 }
