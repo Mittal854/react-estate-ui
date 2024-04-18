@@ -3,7 +3,7 @@ import {useState} from 'react'
 function Navbar(){
     const [open, setOpen] = useState(false)
 
-    const user = true;
+    // const user = true;
     return (
       <nav>
         <div className="left">
@@ -17,20 +17,26 @@ function Navbar(){
           <a href="/">Agents</a>
         </div>
         <div className="right">
-          { user ? (
+          <a href="/">Sign In</a>
+          {/* { user ? (
           <div className="user">
             <img src="https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt='' />
             <span>John Doe</span>
             <link to="/profile">Profile</link>
           </div>
-        ) :(<><a href="/">Sign In</a>
+        ) :(<><a href="/">Sign In</a> */}
           <a href="/" className="register">
             Sign Up
-          </a></>)}
+          </a>
+          {/* </a></>)} */}
           <div className="menuIcon">
-            <img src="/menu.png" alt="menu icon" onClick={()=>setOpen((prev)=>!prev)} />
+            <img
+              src="/menu.png"
+              alt="menu icon"
+              onClick={() => setOpen((prev) => !prev)}
+            />
           </div>
-          <div className={open?"menu active":"menu"} >
+          <div className={open ? "menu active" : "menu"}>
             <a href="/">Home</a>
             <a href="/">About</a>
             <a href="/">Contact</a>
