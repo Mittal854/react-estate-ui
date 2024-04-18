@@ -1,5 +1,7 @@
 
 import HomePage from "./routes/homepage/homePage";
+import "leaflet/dist/leaflet.css";
+
 // import './layout.css';
 import { 
   createBrowserRouter, 
