@@ -34,6 +34,40 @@ nav .right {
   background-color: #fcf5f3;
   height: 100%;
 }
+nav .right .user{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+nav .right .user img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+nav .right .user .profile{
+    padding: 12px 24px;
+    background-color: #fece51;
+    cursor: pointer;
+    border: none;
+    position: relative;
+}
+nav .right .user .profile .notification{
+    position: absolute;
+    top:-8px;
+    right: -8px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    height: 26px;
+    width: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 nav .right a{
     padding: 12px 24px;
     margin: 20px;
@@ -80,6 +114,9 @@ nav .right  .active{
     }
     nav .right .menu a{
         display: initial;
+    }
+    span{
+        display: none;
     }
 }
 @media (max-width: 1024px){

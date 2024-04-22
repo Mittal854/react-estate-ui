@@ -5,8 +5,8 @@
   
   .singlePage .details {
     flex: 3;
-    height: 100%;
-    overflow-y: scroll;
+    height: calc(100% - 100px);
+    overflow-y: auto;
   }
   
   .singlePage .details .wrapper {
@@ -16,6 +16,7 @@
   .singlePage .details .wrapper .info .top {
     display: flex;
     justify-content: space-between;
+    margin-top: 40px;
   }
   
   .singlePage .details .wrapper .info .top .post {
@@ -78,8 +79,8 @@
   .singlePage .features {
     flex: 2;
     background-color: #fcf5f3;
-    height: 100%;
-    overflow-y: scroll;
+    height: calc(100% - 100px);
+    overflow-y: auto;
   }
   
   .singlePage .features .wrapper {
@@ -151,6 +152,7 @@
   
   .singlePage .features .wrapper .mapContainer {
     width: 100%;
+    /* min-height: 200px; */
     height: 200px;
   }
   
@@ -211,9 +213,9 @@
     }
   }
   
-  @media only screen and (max-width: 992px) {
+  @media only screen and (max-width: 1024px) {
     .singlePage .details .wrapper {
-      padding-right: 20px;
+      padding-right: 10px;
     }
   }
   
