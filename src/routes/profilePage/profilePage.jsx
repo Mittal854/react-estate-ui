@@ -1,6 +1,6 @@
 import List from "../../components/list/List";
 import "./profilePage.css";
-
+import Chat from "../../components/chat/Chat";
 function ProfilePage() {
   return (
     <div className="profilePage">
@@ -37,7 +37,9 @@ function ProfilePage() {
         </div>
       </div>
       <div className="chatContainer">
-        <div className="wrapper"></div>
+        <div className="wrapper">
+          <Chat/>
+        </div>
       </div>
     </div>
   );

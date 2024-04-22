@@ -50,4 +50,20 @@
 }
 .profilePage .chatContainer .wrapper {
   padding: 0px 20px;
+  height: 100%;
+}
+
+@media (max-width: 1024px){
+  .profilePage{
+    flex-direction: column;
+    overflow:scroll;
+  }
+  .profilePage .details{
+    flex: none;
+    height: max-content;
+  }
+   .profilePage .chatContainer{
+    flex: none;
+    height: max-content;
+  }
 }
