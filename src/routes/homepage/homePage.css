@@ -132,6 +132,10 @@
     font-size: 64px;
 }
 
+.homePage .textcontainer .wrapper p{
+    font-size: 18px;
+}
+
 .homePage .textcontainer .wrapper .boxes {
     display: flex;
     justify-content: space-between;

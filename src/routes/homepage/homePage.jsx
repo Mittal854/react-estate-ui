@@ -7,13 +7,10 @@ function HomePage(){
             <div className="textcontainer">
                 <div className="wrapper">
                     <h1 className="title">
-                        Find Real Estate &  Get Your Dream PLace
+                        Find Real Estate &  Get Your Dream Place
                     </h1>
                     <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                        Tempore architecto qui asperiores ut numquam iusto at 
-                        molestias odio sunt corrupti accusamus saepe nam eos excepturi 
-                        deserunt quaerat, magnam doloribus provident!
+                    Welcome to <b>HomeHaven</b>, where your dream home awaits! Discover a vast array of exquisite properties tailored to your lifestyle and preferences. Whether you're searching for a chic urban apartment or a sprawling countryside estate, we are here to guide you every step of the way. Start your journey towards finding the perfect home today!
                     </p>
                     <SearchBar/>
                     <div className="boxes">

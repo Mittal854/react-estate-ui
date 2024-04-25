@@ -1,4 +1,3 @@
-
 import HomePage from "./routes/homepage/homePage";
 import "leaflet/dist/leaflet.css";
 
@@ -11,6 +10,7 @@ import ListPage from "./routes/listpage/listPage";
 import Layout from "./routes/layout/layout";
 import SinglePage from "./routes/SinglePage/singlePage";
 import ProfilePage from "./routes/profilePage/profilePage";
+import AboutPage from './routes/AboutPage/AboutPage'
 // import Slider from "./routes/slider/Slider";
 
 function App() {
@@ -35,8 +35,11 @@ function App() {
         {
           path: "/profile",
           element: <ProfilePage/>,
+        },
+        {
+          path: "/about",
+          element: <AboutPage/>,
         }
-        
       ],
     },
   ]);
