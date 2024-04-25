@@ -325,6 +325,7 @@ import { useParams } from "react-router-dom";
 import { singlePostData, userData } from "../../Library/dummyData";
 import Slider from "../../components/slider/Slider";
 import Map from "../../components/map/map";
+import './singlePage.css'
 
 function SinglePage() {
   const { id } = useParams(); // Extract the postId from the route params
@@ -349,7 +350,7 @@ function SinglePage() {
                   <img src="/pin.png" alt="" />
                   <span>{post.address}</span>
                 </div>
-                <div className="price">$ {post.price}</div>
+                <div className="price">₹ {post.price}</div>
               </div>
               <div className="user">
                 <img src={userData.img} alt="" />
