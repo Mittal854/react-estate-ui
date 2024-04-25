@@ -1,16 +1,13 @@
 import HomePage from "./routes/homepage/homePage";
 import "leaflet/dist/leaflet.css";
-
+import { useParams } from "react-router-dom";
 // import './layout.css';
-import { 
-  createBrowserRouter, 
-  RouterProvider
-} from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import ListPage from "./routes/listpage/listPage";
 import Layout from "./routes/layout/layout";
 import SinglePage from "./routes/SinglePage/singlePage";
 import ProfilePage from "./routes/profilePage/profilePage";
-import AboutPage from './routes/AboutPage/AboutPage'
+import AboutPage from "./routes/AboutPage/AboutPage";
 // import Slider from "./routes/slider/Slider";
 
 function App() {
@@ -28,22 +25,30 @@ function App() {
           element: <ListPage />,
         },
         // When we use Single Items we are gonna need id, which will be dynamic and can be a string or a number
+        // {
+        //   path: "/:id",
+        //   element: <SinglePage />,
+        // },
         {
           path: "/:id",
-          element: <SinglePage />,
+          element: <SinglePageWrapper />,
         },
         {
           path: "/profile",
-          element: <ProfilePage/>,
+          element: <ProfilePage />,
         },
         {
           path: "/about",
-          element: <AboutPage/>,
-        }
+          element: <AboutPage />,
+        },
       ],
     },
   ]);
 
+  function SinglePageWrapper() {
+    let { id } = useParams(); // Get the id parameter from the URL
+    return <SinglePage postId={id} />;
+  }
   return <RouterProvider router={router1} />;
 }
 
