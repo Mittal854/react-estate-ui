@@ -50,7 +50,7 @@ nav .right .user img{
 nav .right .user .profile{
     padding: 12px 24px;
     background-color: #fece51;
-    cursor: pointer;
+    cursor: grab;
     border: none;
     position: relative;
 }
