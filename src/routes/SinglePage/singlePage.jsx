@@ -352,10 +352,10 @@ function SinglePage() {
                 </div>
                 <div className="price">₹ {post.price}</div>
               </div>
-              <div className="user">
+              {/* <div className="user">
                 <img src={userData.img} alt="" />
                 <span>{userData.name}</span>
-              </div>
+              </div> */}
             </div>
             <div className="bottom">{post.description}</div>
           </div>

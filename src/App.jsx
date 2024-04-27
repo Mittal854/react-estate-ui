@@ -8,6 +8,8 @@ import Layout from "./routes/layout/layout";
 import SinglePage from "./routes/SinglePage/singlePage";
 import ProfilePage from "./routes/profilePage/profilePage";
 import AboutPage from "./routes/AboutPage/AboutPage";
+import RegisterPage from "./routes/registerPage/registerPage";
+import LoginPage from "./routes/loginPage/loginPage";
 // import Slider from "./routes/slider/Slider";
 
 function App() {
@@ -41,6 +43,14 @@ function App() {
           path: "/about",
           element: <AboutPage />,
         },
+        {
+          path:"/register",
+          element:<RegisterPage/>
+        },
+        {
+          path:"/login",
+          element:<LoginPage/>
+        }
       ],
     },
   ]);
