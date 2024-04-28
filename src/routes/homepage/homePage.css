@@ -123,7 +123,7 @@
     
     https://housing.com/news/wp-content/uploads/2023/11/Thanes-real-estate-growth-Transforming-MMRs-property-landscape-f.jpg*/
     width: 102%;
-    height: 500px;
+    height: 580px;
     /* background-repeat: no-repeat; */
     background-size:100% 100%;
     text-align: center;
@@ -144,9 +144,9 @@
     justify-content: center;
     gap: 50px;
     height: 100%;
-    width: 85%;
+    width: 90%;
     margin-top: 50px;
-    margin-left: 180px;
+    margin-left: 10%;
 }
 
 .homePage .textcontainer .wrapper .title {
@@ -156,7 +156,7 @@
 .homePage .textcontainer .wrapper p{
     font-size: 20px;
     color:white;
-    margin-top: 75px;
+    margin-top: 125px;
 }
 
 .homePage .textcontainer .wrapper .boxes {
