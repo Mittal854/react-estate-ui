@@ -669,7 +669,7 @@ function Navbar() {
         ) : (
           <>
             <div className={open ? "popup active" : "popup"} id="popup-1" >
-              <div className="content">
+              <div className="content" style={{position: "absolute", zIndex: "101"}}>
                 <div className="close-btn" onClick={togglePopupLogin}>
                   x
                 </div>
@@ -724,7 +724,7 @@ function Navbar() {
               id="popup-2">
               <div
                 className="content"
-                style={{ height: "550px", top: "400px" }}>
+                style={{ height: "550px", top: "400px", positio: "absolute", zIndex:"101" }}>
                 <div className="close-btn" onClick={togglePopupRegister}>
                   x
                 </div>
