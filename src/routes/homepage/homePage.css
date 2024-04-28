@@ -135,6 +135,7 @@
     flex: 3;
 }
 
+
 .homePage .textcontainer .wrapper {
     padding-right: 100px;
     display: flex;
@@ -153,6 +154,8 @@
 
 .homePage .textcontainer .wrapper p{
     font-size: 20px;
+    color:white;
+    margin-top: 75px;
 }
 
 .homePage .textcontainer .wrapper .boxes {

@@ -367,7 +367,7 @@ function Navbar() {
         </a>
         <a href="/">Home</a>
         <a href="/about">About</a>
-        <a href="/">Contact</a>
+        <a href="/contact">Contact</a>
         <a href="/list">Listings</a>
       </div>
       <div className="right">
@@ -395,7 +395,7 @@ function Navbar() {
                 </div>
                 <p className="log1">
                   Log In to{" "}
-                  <span style={{ fontWeight: "bold", color: "#178F7A" }}>
+                  <span style={{ fontWeight: "bold", color: "#304e7e" }}>
                     HomeHaven
                   </span>
                 </p>
@@ -446,7 +446,7 @@ function Navbar() {
 
                 <p className="log1">
                   Create Your{" "}
-                  <span style={{ fontWeight: "bold", color: "#178F7A" }}>
+                  <span style={{ fontWeight: "bold", color: "#304e7e" }}>
                     Recipe Realm
                   </span>{" "}
                   Account
@@ -500,12 +500,15 @@ function Navbar() {
               </div>
             </div>
 
-            <a
+            {/* <a
               onClick={togglePopup}
               id="loginBtn"
               style={{ marginLeft: "-30px", cursor: "pointer" }}>
               Login
-            </a>
+            </a> */}
+            <div onClick={togglePopup} id="loginBtn" style={{ marginLeft: "-30px", cursor: "pointer"}}>
+  <img style={{width:"35px"}} src="/person-icon.png" alt="Person Icon" />
+</div>
 
             <button
               id="logoutButton"
