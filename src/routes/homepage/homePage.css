@@ -110,11 +110,7 @@
 }
 
 /* Main CSS */
-.homepageMain{
-    height:calc(100vh - 100px);
-    overflow-y:auto;
-    /* width: calc(100%-80px); */
-}
+
 .homePage {
     background-image: url("https://assets.wander.com/312296435703873538/1200.webp");
     

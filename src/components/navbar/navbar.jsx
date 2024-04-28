@@ -281,10 +281,12 @@ function Navbar() {
 
   function togglePopup() {
     setOpen(!open);
+    setOpenRegister(false);
   }
 
   function togglePopupRegister() {
     setOpenRegister(!openRegister);
+    setOpen(false);
   }
 
   function register() {
@@ -299,7 +301,7 @@ function Navbar() {
       return;
     }
 
-    var num = /^[789]\d{9}$/;
+    var num = /^[6789]\d{9}$/;
     if (!phoneNumber.match(num)) {
       alert("Invalid Phone Number");
       return false;
