@@ -19,7 +19,7 @@ function Footer1() {
           </p>
         </div>
 
-        <div className="right">
+        <div className="right1">
           <p>Sign up for the latest properties and news</p>
           <input type="email" placeholder="email address" />
           <button class="button1">Subscribe</button>
