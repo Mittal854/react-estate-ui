@@ -111,8 +111,9 @@
 
 /* Main CSS */
 .homepageMain{
-    height:calc(100vh - 100px);
-    overflow-y:auto;
+    /* height:calc(90vh - 100px); */
+    /* overflow-y:auto; */
+    margin-bottom: 100px;
     /* width: calc(100%-80px); */
 }
 .homePage {
@@ -121,12 +122,12 @@
     /* 
     
     https://housing.com/news/wp-content/uploads/2023/11/Thanes-real-estate-growth-Transforming-MMRs-property-landscape-f.jpg*/
-    width: 100%;
+    width: 102%;
     height: 500px;
     /* background-repeat: no-repeat; */
     background-size:100% 100%;
     text-align: center;
-    margin-left: -40px;
+    margin-left: -10px;
     color: white;
     padding: 20px;
 }
