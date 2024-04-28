@@ -4,7 +4,7 @@ import SearchBar from '../../components/searchbar/SearchBar'
 
 function HomePage() {
     return (
-        <div>
+        <div className='homepageMain' >
             <div className='homePage'>
                 <div className="textcontainer">
                     <div className="wrapper">
