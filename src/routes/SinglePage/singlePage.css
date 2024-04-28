@@ -44,7 +44,7 @@
   
   .singlePage .details .wrapper .info .top .post .price {
     padding: 5px;
-    background-color: rgba(254, 205, 81, 0.438);
+    background-color:rgba(48, 78, 126,0.8);
     border-radius: 5px;
     width: max-content;
     font-size: 20px;
@@ -59,7 +59,7 @@
     gap: 20px;
     padding: 0px 50px;
     border-radius: 10px;
-    background-color: rgba(254, 205, 81, 0.209);
+    background-color: rgba(81, 90, 254, 0.209);
     font-weight: 600;
   }
   
@@ -110,7 +110,7 @@
   }
   
   .singlePage .features .wrapper .feature img {
-    background-color: rgba(254, 205, 81, 0.209);
+    background-color: rgba(133, 81, 254,.209);
   }
   
   .singlePage .features .wrapper .feature .featureText span {
@@ -171,7 +171,7 @@
     align-items: center;
     gap: 5px;
     background-color: white;
-    border: 1px solid #fece51;
+    border: 1px solid rgb(133, 81, 254);
     border-radius: 5px;
     cursor: pointer;
   }
