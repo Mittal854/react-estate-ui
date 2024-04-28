@@ -547,22 +547,22 @@ import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 function Navbar() {
-  const [openLogin, setOpenLogin] = useState(false); // State for login popup
+  const [open, setOpen] = useState(false); // State for login popup
   const [openRegister, setOpenRegister] = useState(false); // State for register popup
   const [openSideMenu, setOpenSideMenu] = useState(false); // State for side menu
   const [isLoggedIn, setIsLoggedIn] = useState(false);
 
   function togglePopupLogin() {
-    setOpenLogin(!openLogin);
+    setOpen(!open);
   }
 
   function togglePopupRegister() {
+    if (open) {
+      // Close the login popup if it's open
+      setOpen(false);
+    }
+    // Open the register popup
     setOpenRegister(!openRegister);
-  }
-
-  function closePopups() {
-    setOpenLogin(false);
-    setOpenRegister(false);
   }
 
   function register() {
@@ -599,7 +599,8 @@ function Navbar() {
     localStorage.setItem(email, JSON.stringify(userData));
 
     alert("Registration successful");
-    closePopups();
+    togglePopupRegister();
+    togglePopupLogin(); // Close register popup after successful registration
   }
 
   function login() {
@@ -614,10 +615,11 @@ function Navbar() {
       localStorage.setItem("isLoggedIn", "true");
       document.getElementById("logoutButton").style.display = "inline";
       document.getElementById("loginBtn").style.display = "none";
+      togglePopupLogin();
     } else {
       alert("Invalid email or password");
     }
-    togglePopupLogin();
+    
   }
 
   function logout() {
@@ -628,6 +630,7 @@ function Navbar() {
     document.getElementById("loginBtn").style.display = "inline";
     localStorage.setItem("isLoggedIn", "false");
     alert("You are now logged out!");
+    togglePopupLogin();
   }
 
   useEffect(() => {
@@ -665,7 +668,7 @@ function Navbar() {
           </div>
         ) : (
           <>
-            <div className={openLogin ? "popup active" : "popup"} id="popup-1" >
+            <div className={open ? "popup active" : "popup"} id="popup-1" >
               <div className="content">
                 <div className="close-btn" onClick={togglePopupLogin}>
                   x
@@ -721,7 +724,7 @@ function Navbar() {
               id="popup-2">
               <div
                 className="content"
-                style={{ height: "600px", top: "400px" }}>
+                style={{ height: "550px", top: "400px" }}>
                 <div className="close-btn" onClick={togglePopupRegister}>
                   x
                 </div>
