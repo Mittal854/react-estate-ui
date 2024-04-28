@@ -26,8 +26,8 @@ function Heading() {
                 <div class="listing">
                     <img src="https://media.istockphoto.com/id/1409298953/photo/real-estate-agents-shake-hands-after-the-signing-of-the-contract-agreement-is-complete.jpg?s=612x612&w=0&k=20&c=SFybbpGMB0wIoI0tJotFqptzAYK_mICVITNdQIXqnyc=" alt="" />
                     <div class="details">
-                        <h2>Renting made simple</h2>
-                        <p>Browse the highest quality listings, apply online, sign your lease, and even pay your rent from any device.</p>
+                        <h2>Discover Homeownership on HomeHaven</h2>
+                        <p>Stay up-to-date using our tips and guides on rent payments , leasing , management solutions , and more....</p>
                     </div>
                 </div>
             </div>
@@ -39,8 +39,8 @@ function Heading() {
             <div class="listing">
                 <img src="https://propertylisthub.com/wp-content/uploads/2021/07/Vintage1-1-500x328.jpg" alt="" />
                 <div class="details">
-                    <h2>Renting made simple</h2>
-                    <p>Browse the highest quality listings, apply online, sign your lease, and even pay your rent from any device.</p>
+                    <h2>Explore Your Options</h2>
+                    <p>Connect with more than 75 million renters looking for new homes using our excellent marketing platform.</p>
                 </div>
             </div>
         </div>

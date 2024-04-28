@@ -110,19 +110,24 @@
 }
 
 /* Main CSS */
-
+.homepageMain{
+    height:calc(100vh - 100px);
+    overflow-y:auto;
+    /* width: calc(100%-80px); */
+}
 .homePage {
     background-image: url("https://assets.wander.com/312296435703873538/1200.webp");
     
     /* 
     
     https://housing.com/news/wp-content/uploads/2023/11/Thanes-real-estate-growth-Transforming-MMRs-property-landscape-f.jpg*/
+
     width: 100%;
-    height: 500px;
+    height: 550px;
     /* background-repeat: no-repeat; */
     background-size:100% 100%;
     text-align: center;
-    margin-left: -40px;
+    margin-left: -10px;
     color: white;
     padding: 20px;
 }
@@ -132,6 +137,16 @@
 }
 
 
+
+
+
+
+
+
+
+
+
+
 .homePage .textcontainer .wrapper {
     padding-right: 100px;
     display: flex;
@@ -139,9 +154,9 @@
     justify-content: center;
     gap: 50px;
     height: 100%;
-    width: 85%;
+    width: 90%;
     margin-top: 50px;
-    margin-left: 180px;
+    margin-left: 10%;
 }
 
 .homePage .textcontainer .wrapper .title {
@@ -149,9 +164,9 @@
 }
 
 .homePage .textcontainer .wrapper p{
-    font-size: 20px;
+    font-size: 22px;
     color:white;
-    margin-top: 75px;
+    margin-top: 160px;
 }
 
 .homePage .textcontainer .wrapper .boxes {
