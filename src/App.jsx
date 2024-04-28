@@ -10,6 +10,7 @@ import ProfilePage from "./routes/profilePage/profilePage";
 import AboutPage from "./routes/AboutPage/AboutPage";
 import RegisterPage from "./routes/registerPage/registerPage";
 import LoginPage from "./routes/loginPage/loginPage";
+import ContactPage from "./routes/ContactPage/ContactPage";
 // import Slider from "./routes/slider/Slider";
 
 function App() {
@@ -48,9 +49,14 @@ function App() {
           element:<RegisterPage/>
         },
         {
+          path:"/contact",
+          element:<ContactPage/>
+        },
+        {
           path:"/login",
           element:<LoginPage/>
         }
+
       ],
     },
   ]);
