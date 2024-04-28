@@ -20,10 +20,10 @@ function Footer1() {
         </div>
 
         <div className="right1">
-          <p>Sign up for the latest properties and news</p>
+          <p className="pp" >Sign up for the latest properties and news</p>
           <input type="email" placeholder="email address" />
           <button class="button1">Subscribe</button>
-          <p style={{ marginTop: "30px" }}>Follow Home Haven</p>
+          <p style={{ marginTop: "30px", marginLeft:"20px" }}>Follow Home Haven</p>
           {/* Make sure Font Awesome icons are imported properly */}
           <i className="fab fa-facebook"></i>
           <i className="fab fa-pinterest"></i>
