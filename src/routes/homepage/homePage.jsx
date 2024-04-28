@@ -1,6 +1,5 @@
 import './homePage.css'
 import Heading from './heading'
-import Deal from './deal'
 import SearchBar from '../../components/searchbar/SearchBar'
 
 function HomePage() {
@@ -38,7 +37,6 @@ function HomePage() {
             </div>
 
             <Heading/>
-            <Deal/>
 
         </div>
 
