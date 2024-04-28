@@ -4,20 +4,35 @@
     font-size: 2rem;
     font-weight: bold;
     text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    text-decoration: underline;
 }
 
 .pic{
-    width: 100%;
+    width: 80%;
     height:500px;
     margin-top: 15px;
+    margin-left: 150px;
 }
 
 .subHead1{
     text-align: center;
-    margin-top: 20px;
+    margin-top: 10px;
+    font-family:'Times New Roman', Times, serif;
+    text-decoration: underline;
 }
 
 .subHead{
     text-align: center;
-    margin-top: 10px;
+    margin-top: 15px;
+    text-decoration: underline;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+span{
+    font-weight: 600;
+}
+p{
+    font-family:'Times New Roman', Times, serif;
 }
