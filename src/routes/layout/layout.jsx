@@ -2,6 +2,7 @@ import "./layout.css";
 import Navbar from "../../components/navbar/navbar";
 import {Outlet} from 'react-router-dom';
 import Footer from "../../components/footer/footer";
+import Footer1 from "../../components/footer1/footer1";
 function Layout() {
   return (
     <div className="layout">
@@ -13,7 +14,7 @@ function Layout() {
         <Outlet/>
       </div>
       <div className="footer1">
-        <Footer/>
+        <Footer1/>
       </div>
     </div>
   );
