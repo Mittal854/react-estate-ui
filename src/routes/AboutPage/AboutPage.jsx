@@ -3,18 +3,24 @@ import './AboutPage.css'
 function AboutPage() {
     return(
         <>
-            <div className='h1'>Welcome to HomeHaven</div>
-           <img className='pic' src=' https://t3.ftcdn.net/jpg/02/35/64/18/360_F_235641881_PTZiOsNA3Rxy0Q9P4QVpfTBTd7NNnxB2.jpg'/>
+            <div className='h1'>Welcome to HomeHaven</div><h2 className="subHead1"><span>Turning Spaces Into Places:</span>Your trusted real estate partner.</h2>
+           <img className='pic' src=' https://cdn-res.keymedia.com/cms/images/ca/155/0379_637932070576594600.jpg'/>
         <div >
-     <h2 className="subHead1"><span>Turning Spaces Into Places:</span>Your trusted real estate partner.</h2>
+     
      <h3 className="subHead">
         Your trusted guide in finding the perfect space to call home.
      </h3>
     <p>At HomeHaven, we believe that finding your dream home should be a delightful journey, not a daunting task. Our mission is to simplify the process of renting homes by providing a seamless online platform where renters can discover their perfect abode with ease.</p>
 <h3 className="subHead">Our Story
 </h3>
-<p>Founded with a passion for real estate and a vision for modernizing the renting experience, HomeHaven was born. Our team consists of dedicated professionals from diverse backgrounds, united by a common goal: to revolutionize the way people find rental homes.
-</p>
+<p>Founded with a passion for real estate and a vision for modernizing the renting experience, HomeHaven was born. Our journey began with a simple yet powerful idea: to create a platform that empowers renters and landlords alike, streamlining the rental process for everyone involved.</p>
+
+<p>Driven by our shared commitment to excellence and innovation, our team of dedicated professionals embarked on a mission to redefine the standards of the real estate industry. With diverse backgrounds in technology, design, marketing, and real estate, we brought together a wealth of expertise and perspective, each member contributing their unique talents to the collective vision of HomeHaven.</p>
+<p>With unwavering determination, we set out to address these pain points head-on, leveraging cutting-edge technology and innovative solutions to create a platform that revolutionizes the way people find and rent homes. Our relentless pursuit of excellence drives us to continually push the boundaries of what's possible, seeking out new opportunities to enhance the renting experience for all.</p>
+
+<p>At HomeHaven, we're not just building a platform—we're building a community. A community of renters, landlords, and real estate professionals united by a shared vision of simplicity, transparency, and trust. Together, we're shaping the future of renting, one home at a time.</p>
+
+
 <h3 className="subHead">What Sets Us Apart
 </h3>
 <p>HomeHaven stands out in the crowded real estate market for several reasons:
