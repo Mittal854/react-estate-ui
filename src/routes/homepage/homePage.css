@@ -1,83 +1,3 @@
-/* @import "../../responsive.css";
-
-.homePage{
-    display: flex;
-    height: 100%;
-
-    .textcontainer{
-        flex: 3;
-
-        .wrapper{
-            padding-right: 100px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            gap: 50px;
-            height: 100%;
-
-            @include md{
-                padding:0;
-            }
-
-            @include sm{
-                justify-content: flex-start;
-            }
-
-            .title{
-                font-size: 64px;
-
-                @include lg{
-                    font-size: 48px;
-                }
-            }
-
-            .boxes{
-                display: flex;
-                justify-content: space-between;
-
-                @include sm{
-                    display:none;
-                }
-
-                h1{
-                    font-size: 32px;
-
-                    @include lg{
-                        font-size: 48px;
-                    }
-                }
-
-                h2{
-                    font-size: 20px;
-                    font-weight: 300;
-                }
-            }
-        }
-    }
-
-    .imgcontainer{
-        flex: 2;
-        background-color: #fcf5f3;
-        position: relative;
-        display: flex;
-        align-items: center;
-
-        @include md{
-            display:none;
-        }
-
-        img{
-            width: 115%;
-            position: absolute;
-            right: 0;
-
-            @include lg{
-                width:105%;
-            }
-        }
-    }
-} */
-
 /* Media Query Mixins */
 @media (max-width: 738px) {
     /* @mixin sm */
@@ -122,12 +42,12 @@
     
     https://housing.com/news/wp-content/uploads/2023/11/Thanes-real-estate-growth-Transforming-MMRs-property-landscape-f.jpg*/
 
-    width: 100%;
-    height: 550px;
+    width: 105%;
+    height: 570px;
     /* background-repeat: no-repeat; */
     background-size:100% 100%;
     text-align: center;
-    margin-left: -10px;
+    margin-left: -32px;
     color: white;
     padding: 20px;
 }
@@ -135,17 +55,6 @@
 .homePage .textcontainer {
     flex: 3;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 .homePage .textcontainer .wrapper {
     padding-right: 100px;

@@ -1,6 +1,7 @@
 .singlePage {
     display: flex;
     height: 100vh;
+    margin-bottom: -100px;
   }
   
   .singlePage .details {
@@ -44,7 +45,7 @@
   
   .singlePage .details .wrapper .info .top .post .price {
     padding: 5px;
-    background-color:rgba(48, 78, 126,0.8);
+    background-color:rgba(49, 95, 167, 0.8);
     border-radius: 5px;
     width: max-content;
     font-size: 20px;
@@ -111,14 +112,19 @@
   
   .singlePage .features .wrapper .feature img {
     background-color: rgba(133, 81, 254,.209);
+    width: 32px;
+    margin-top: -14px;
   }
   
   .singlePage .features .wrapper .feature .featureText span {
     font-weight: bold;
+    font-size: 16px;
   }
   
   .singlePage .features .wrapper .feature .featureText p {
-    font-size: 14px;
+    font-size: 16px;
+    margin-top: -18px;
+    margin-left: -12px;
   }
   
   .singlePage .features .wrapper .listVertical {

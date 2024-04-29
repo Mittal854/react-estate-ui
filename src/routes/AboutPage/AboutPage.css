@@ -1,6 +1,6 @@
 
 .h1{
-    margin-top: 20px;
+    margin-top: 0px;
     font-size: 2rem;
     font-weight: bold;
     text-align: center;
@@ -9,10 +9,10 @@
 }
 
 .pic{
-    width: 80%;
-    height:500px;
+    width: 95%;
+    height:520px;
     margin-top: 15px;
-    margin-left: 150px;
+    margin-left: 36px;
 }
 
 .subHead1{

@@ -9,7 +9,7 @@ function ContactPage() {
         <h2 className="subheadA">
           Reach out to us through your preferred method:
         </h2>
-        <p className="p"><span>Email:</span> Share detailed inquiries, feedback, or even suggestions through email. Our dedicated team will respond promptly at homehaven@gmail.com.</p>
+        <p className="p"><span>Email:</span> Share detailed inquiries, feedback, or even suggestions through email. Our dedicated team will respond promptly at <b>homehaven@gmail.com</b>.</p>
         <p className="p"><span>Social Media:</span> Connect with us on social media for exciting updates, exclusive offers, and fragrant inspiration:</p>
         <p className="p"><span> Instagram:</span><a href="(https://www.instagram.com/)"> @home_haven </a></p>
         <p className="p4"><span> Facebook:</span><a href=" https://www.facebook.com/">home_haven/facebook</a>

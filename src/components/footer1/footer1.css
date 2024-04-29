@@ -1,10 +1,11 @@
 #footer {
     background: linear-gradient(to right, skyblue,rgb(67, 67, 101));
-    margin: 60px 0px;
+    margin: 60px 0px 0px -50px;
+    width: 108%;
     
 }
 .whole{
-    height:300px;
+    height: 280px;
 
 }
 
@@ -30,7 +31,7 @@
 }
 
 .left {
-    width: 50%;
+    width: 55%;
     margin-left: 40px;
     margin-right: 20px;
     margin-top: -20px;
@@ -41,12 +42,12 @@
 }
 
 .p1 {
-    font-size: 16px;
+    font-size: 18px;
     /* margin-left: 8px; */
 }
 
 .p2 {
-    font-size: 16px;
+    font-size: 18px;
     margin-top: -20px;
 }
 
@@ -60,18 +61,19 @@
 }
 
 .right1 {
-    margin-top: -60px;
+    margin-top: 80px;
 }
 
 .right1 p {
     color: black;
-    font-size: 16px;
+    font-size: 18px;
     margin-bottom: -10px;
+    margin-top: -20px;
 }
 
 .right1 input[type="email"] {
     width: 300px;
-    height: 30px;
+    height: 40px;
     border-radius: 250px;
     border-color: black;
     border-style: solid;
@@ -88,9 +90,10 @@
     font-size: 18px;
     border-radius: 100px;
     width: 100px;
-    height: 30px;
+    height: 40px;
     /* border: solid 0px #178F7A; */
     margin-left: -100px;
+    cursor: pointer;
 }
 
 .right1 i {
