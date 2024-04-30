@@ -222,6 +222,7 @@ function Navbar() {
                     id="registerPassword"
                     placeholder="Password"
                     className="validate"
+                    type= "password"
                   />
                 </div>
                 <button className="second-button" onClick={register} style={{
