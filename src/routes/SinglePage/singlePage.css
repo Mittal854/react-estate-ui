@@ -90,7 +90,7 @@
     padding: 0px 20px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
   }
   
   .singlePage .features .wrapper img {
@@ -101,7 +101,7 @@
   .singlePage .features .wrapper .title {
     font-weight: bold;
     font-size: 18px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
   }
   
   .singlePage .features .wrapper .feature {

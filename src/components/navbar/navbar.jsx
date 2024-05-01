@@ -1,5 +1,5 @@
 import "./navbar.css";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 
 function Navbar() {
@@ -196,8 +196,8 @@ function Navbar() {
               <div
                 className="content"
                 style={{
-                  height: "550px",
-                  top: "400px",
+                  height: "525px",
+                  top: "375px",
                   positio: "absolute",
                   zIndex: "101",
                 }}>
