@@ -322,9 +322,9 @@ function Navbar() {
           <a href="/">Home</a>
           <a href="/">About</a>
           <a href="/">Contact</a>
-          <a href="/">Agents</a>
-          <a href="/">Sign In</a>
-          <a href="/">Sign Up</a>
+          <a href="/">Listings</a>
+          {/* <a href="/">Sign In</a>
+          <a href="/">Sign Up</a> */}
         </div>
       </div>
     </nav>
