@@ -1,12 +1,11 @@
 #footer {
-    background: linear-gradient(to right, skyblue,rgb(67, 67, 101));
+    /* background: linear-gradient(to right, skyblue,rgb(67, 67, 101)); */
+    background: linear-gradient(to right, rgb(184, 228, 245),rgb(170, 170, 229));
     margin: 60px 0px 0px -50px;
     width: 108%;
-    
-}
-.whole{
-    height: 280px;
-
+    position: absolute;
+    left: 0;
+    padding: 15px;
 }
 
 .logo-end {
@@ -20,10 +19,11 @@
 
 .le {
     width: 150px;
-    margin-top: 70px;
+    margin-top: 50px;
 }
 
 .whole {
+    height: 220px;
     display: flex;
     flex: 1fr 1fr;
     flex-direction: row;
@@ -32,9 +32,9 @@
 
 .left {
     width: 55%;
-    margin-left: 40px;
+    margin-left: 80px;
     margin-right: 20px;
-    margin-top: -20px;
+    margin-top: -35px;
 }
 
 .left p {
@@ -61,7 +61,7 @@
 }
 
 .right1 {
-    margin-top: 80px;
+    margin-top: 40px;
 }
 
 .right1 p {
@@ -72,7 +72,7 @@
 }
 
 .right1 input[type="email"] {
-    width: 300px;
+    width: 310px;
     height: 40px;
     border-radius: 250px;
     border-color: black;
@@ -80,7 +80,7 @@
     font-size: 16px;
     padding: 14px;
     margin-left: 20px;
-    background-color: rgb(184, 173, 173);
+    /* background-color: rgb(184, 173, 173); */
     color: black;
 }
 
@@ -92,7 +92,7 @@
     width: 100px;
     height: 40px;
     /* border: solid 0px #178F7A; */
-    margin-left: -100px;
+    margin-left: -99px;
     cursor: pointer;
 }
 
