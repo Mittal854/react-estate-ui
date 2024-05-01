@@ -154,7 +154,7 @@ function Navbar() {
                   />
                 </div>
                 <button className="second-button" onClick={login} style={{
-                  cursor: "pointer"
+                  cursor: "pointer" 
                 }}>
                   Log In
                 </button>
@@ -246,9 +246,9 @@ function Navbar() {
                 </p>
               </div>
             </div>
-            <div onClick={togglePopupLogin} id="loginBtn" style={{ marginLeft: "-30px", textAlign: "center", justifyContent: "center"}}>
-              <img style={{ width: "35px", marginBottom: "-12px" }} src="/person-icon.png" alt="Person Icon" />
-              <button className="log" onClick={togglePopupLogin}>Log In</button>
+            <div onClick={togglePopupLogin} id="loginBtn" style={{ marginLeft: "-30px", textAlign: "center", justifyContent: "center", backgroundColor: "#304e7e", borderRadius: "10px", padding: "2px", marginTop: "24px"}}>
+              <img style={{ width: "34px", marginBottom: "-12px", backgroundColor: "#304e7e", marginLeft: "4px", borderRadius: "50px" }} src="/person-icon.png" alt="Person Icon" />
+              <button className="log" onClick={togglePopupLogin} style={{backgroundColor: "#304e7e", borderRadius: "4px", padding: "10px", color: "white" }}>Log In</button>
             </div>
 
             <button
