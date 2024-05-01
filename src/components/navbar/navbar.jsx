@@ -84,7 +84,6 @@ function Navbar() {
     } else {
       alert("Invalid email or password");
     }
-    
   }
 
   function logout() {
@@ -133,8 +132,10 @@ function Navbar() {
           </div>
         ) : (
           <>
-            <div className={open ? "popup active" : "popup"} id="popup-1" >
-              <div className="content" style={{position: "absolute", zIndex: "101"}}>
+            <div className={open ? "popup active" : "popup"} id="popup-1">
+              <div
+                className="content"
+                style={{ position: "absolute", zIndex: "101" }}>
                 <div className="close-btn" onClick={togglePopupLogin}>
                   x
                 </div>
@@ -160,14 +161,18 @@ function Navbar() {
                     className="validate"
                   />
                 </div>
-                <button className="second-button" onClick={login} style={{
-                  cursor: "pointer" 
-                }}>
+                <button
+                  className="second-button"
+                  onClick={login}
+                  style={{
+                    cursor: "pointer",
+                  }}>
                   Log In
                 </button>
-                <p style={{
-                  marginRight: "-60px"
-                }}>
+                <p
+                  style={{
+                    marginRight: "-60px",
+                  }}>
                   Don't have an account?{" "}
                   <a onClick={togglePopupRegister}>
                     <span
@@ -175,7 +180,7 @@ function Navbar() {
                         color: "blue",
                         cursor: "pointer",
                         textDecoration: "underline",
-                        marginLeft: "-40px"
+                        marginLeft: "-40px",
                       }}>
                       Register
                     </span>
@@ -189,7 +194,12 @@ function Navbar() {
               id="popup-2">
               <div
                 className="content"
-                style={{ height: "550px", top: "400px", positio: "absolute", zIndex:"101" }}>
+                style={{
+                  height: "550px",
+                  top: "400px",
+                  positio: "absolute",
+                  zIndex: "101",
+                }}>
                 <div className="close-btn" onClick={togglePopupRegister}>
                   x
                 </div>
@@ -229,15 +239,18 @@ function Navbar() {
                     id="registerPassword"
                     placeholder="Password"
                     className="validate"
-                    type= "password"
+                    type="password"
                   />
                 </div>
-                <button className="second-button" onClick={register} style={{
-                  cursor: "pointer"
-                }}>
+                <button
+                  className="second-button"
+                  onClick={register}
+                  style={{
+                    cursor: "pointer",
+                  }}>
                   Register
                 </button>
-                <p style={{marginRight:"-50px"}}>
+                <p style={{ marginRight: "-50px" }}>
                   Already have an account?{" "}
                   <a onClick={togglePopupLogin}>
                     <span
@@ -245,7 +258,7 @@ function Navbar() {
                         color: "blue",
                         cursor: "pointer",
                         textDecoration: "underline",
-                        marginLeft: "-40px"
+                        marginLeft: "-40px",
                       }}>
                       Login
                     </span>
@@ -253,9 +266,40 @@ function Navbar() {
                 </p>
               </div>
             </div>
-            <div onClick={togglePopupLogin} id="loginBtn" style={{ marginLeft: "-30px", textAlign: "center", justifyContent: "center", backgroundColor: "#304e7e", borderRadius: "10px", padding: "2px", marginTop: "24px"}}>
-              <img style={{ width: "34px", marginBottom: "-12px", backgroundColor: "#304e7e", marginLeft: "4px", borderRadius: "50px" }} src="/person-icon.png" alt="Person Icon" />
-              <button className="log" onClick={togglePopupLogin} style={{backgroundColor: "#304e7e", borderRadius: "4px", padding: "10px", color: "white" }}>Log In</button>
+            <div
+              onClick={togglePopupLogin}
+              id="loginBtn"
+              style={{
+                marginLeft: "-30px",
+                textAlign: "center",
+                justifyContent: "center",
+                backgroundColor: "#304e7e",
+                borderRadius: "10px",
+                padding: "2px",
+                marginTop: "24px",
+              }}>
+              <img
+                style={{
+                  width: "34px",
+                  marginBottom: "-12px",
+                  backgroundColor: "#304e7e",
+                  marginLeft: "4px",
+                  borderRadius: "50px",
+                }}
+                src="/person-icon.png"
+                alt="Person Icon"
+              />
+              <button
+                className="log"
+                onClick={togglePopupLogin}
+                style={{
+                  backgroundColor: "#304e7e",
+                  borderRadius: "4px",
+                  padding: "10px",
+                  color: "white",
+                }}>
+                Log In
+              </button>
             </div>
 
             <button
