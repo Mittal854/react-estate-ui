@@ -109,10 +109,10 @@ function Navbar() {
           <img src="/logo.png" alt="" />
           <span>HomeHaven</span>
         </Link>
-        <Link href="/">Home</Link>
-        <Link href="/about">About</Link>
-        <Link href="/contact">Contact</Link>
-        <Link href="/list">Listings</Link>
+        <Link to="/">Home</Link>
+        <Link to="/about">About</Link>
+        <Link to="/contact">Contact</Link>
+        <Link to="/list">Listings</Link>
       </div>
       <div className="right">
         {
@@ -320,10 +320,10 @@ function Navbar() {
           />
         </div>
         <div className={openSideMenu ? "menu active" : "menu"}>
-          <Link href="/">Home</Link>
-          <Link href="/about">About</Link>
-          <Link href="/contact">Contact</Link>
-          <Link href="/list">Listings</Link>
+          <Link to="/">Home</Link>
+          <Link to="/about">About</Link>
+          <Link to="/contact">Contact</Link>
+          <Link to="/list">Listings</Link>
           {/* <a href="/">Sign In</a>
           <a href="/">Sign Up</a> */}
         </div>
