@@ -47,6 +47,13 @@ function Navbar() {
       return false;
     }
 
+    if (localStorage.getItem(email)) {
+      alert("An account with this email already exists. Please log in.");
+      togglePopupRegister();
+      togglePopupLogin();
+      return;
+    }
+
     var userData = {
       name: name,
       phoneNumber: phoneNumber,
