@@ -6,7 +6,7 @@ function Navbar() {
   const [open, setOpen] = useState(false); // State for login popup
   const [openRegister, setOpenRegister] = useState(false); // State for register popup
   const [openSideMenu, setOpenSideMenu] = useState(false); // State for side menu
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
+  // const [isLoggedIn, setIsLoggedIn] = useState(false);
 
   function togglePopupLogin() {
     setOpen(!open);
@@ -97,40 +97,41 @@ function Navbar() {
     togglePopupLogin();
   }
 
-  useEffect(() => {
-    const isLoggedIn = localStorage.getItem("isLoggedIn") === "true";
-    setIsLoggedIn(isLoggedIn);
-  }, []);
+  // useEffect(() => {
+  //   const isLoggedIn = localStorage.getItem("isLoggedIn") === "true";
+  //   setIsLoggedIn(isLoggedIn);
+  // }, []);
 
   return (
     <nav>
       <div className="left">
-        <a href="/" className="logo">
+        <Link href="/" className="logo">
           <img src="/logo.png" alt="" />
           <span>HomeHaven</span>
-        </a>
-        <a href="/">Home</a>
-        <a href="/about">About</a>
-        <a href="/contact">Contact</a>
-        <a href="/list">Listings</a>
+        </Link>
+        <Link href="/">Home</Link>
+        <Link href="/about">About</Link>
+        <Link href="/contact">Contact</Link>
+        <Link href="/list">Listings</Link>
       </div>
       <div className="right">
-        {isLoggedIn ? (
-          <div className="user">
-            <img
-              src="https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-              alt=""
-            />
-            <span>John Doe</span>
-            <Link to="/profile" className="profile">
-              <div className="notification">3</div>
-              <span>Profile</span>
-            </Link>
-            <button onClick={logout} className="logout">
-              Logout
-            </button>
-          </div>
-        ) : (
+        {
+          // isLoggedIn ? (
+          //   <div className="user">
+          //     <img
+          //       src="https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          //       alt=""
+          //     />
+          //     <span>John Doe</span>
+          //     <Link to="/profile" className="profile">
+          //       <div className="notification">3</div>
+          //       <span>Profile</span>
+          //     </Link>
+          //     <button onClick={logout} className="logout">
+          //       Logout
+          //     </button>
+          //   </div>
+          // ) :
           <>
             <div className={open ? "popup active" : "popup"} id="popup-1">
               <div
@@ -310,7 +311,7 @@ function Navbar() {
               Logout
             </button>
           </>
-        )}
+        }
         <div className="menuIcon">
           <img
             src="/menu.png"
@@ -319,10 +320,10 @@ function Navbar() {
           />
         </div>
         <div className={openSideMenu ? "menu active" : "menu"}>
-          <a href="/">Home</a>
-          <a href="/">About</a>
-          <a href="/">Contact</a>
-          <a href="/">Listings</a>
+          <Link href="/">Home</Link>
+          <Link href="/about">About</Link>
+          <Link href="/contact">Contact</Link>
+          <Link href="/list">Listings</Link>
           {/* <a href="/">Sign In</a>
           <a href="/">Sign Up</a> */}
         </div>
