@@ -9,6 +9,7 @@
     "flet": "^1.0.0",
     "lea": "^2.2.4",
     "leaflet": "^1.9.4",
+    "projects": "file:",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-leaflet": "^4.2.1",
